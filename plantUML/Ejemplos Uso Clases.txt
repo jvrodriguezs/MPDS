@@ -1,0 +1,1 @@
+@startumltitle Ejemplosclass Padreclass HijoPadre <|-down- Hijoclass Todoclass ParteTodo *-down-> Parteclass Todo1class Parte1Todo1 o-down-> Parte1class Asociaclass AsociadoAsocia -right-> Asociadoclass Usaclass UsadoUsa .down.> Usado@enduml
