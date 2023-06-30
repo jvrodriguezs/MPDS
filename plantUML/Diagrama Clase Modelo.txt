@@ -1,0 +1,27 @@
+class Modelo
+class Evolución
+class Complejidad
+class Compromiso
+class Orden
+class Espacio
+class Tiempo
+class Asociación
+class Abstracción
+class Eficacia
+class Eficiencia
+class Seguridad
+class Reusabilidad
+
+
+Modelo -right-> Evolución
+Modelo *-down-> Complejidad
+Modelo *-down-> Compromiso
+Complejidad -right->Orden
+Orden -right-> Espacio
+Orden -right-> Tiempo
+Orden *-down-> Asociación
+Asociación -right-> Abstracción
+Compromiso *-down-> Eficacia
+Compromiso *-down-> Eficiencia
+Eficacia <|-down- Seguridad
+Eficiencia <|-down- Reusabilidad
